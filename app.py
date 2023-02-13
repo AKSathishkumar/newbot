@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 TELEGRAM_BOT_TOKEN = "5831434184:AAFpnWPOtiKsKbBDacHES-Q5NjaP_3A9k7A"
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def chat(text):
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     model_engine = "text-davinci-002"
     prompt = (f"{text}")
